@@ -45,7 +45,7 @@ export default function EditTaskForm({ id, title, description }) {
                 onChange={(e) => setNewDescription(e.target.value)}
                 value={newDescription}
                 className="border border-slate-600 px-8 p-2"
-                type="text" placeholder="Task Description"
+                type="text" placeholder="Task Detail"
             />
 
             <button className="bg-green-600 font-bold text-white py-3 px-6 w-fit">
