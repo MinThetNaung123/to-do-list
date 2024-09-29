@@ -7,8 +7,8 @@ export default function TaskList() {
         <>
             <div className="p-4 border border-slate-50 my-3 flex justify-between gap-5 items-start">
                 <div>
-                    <h2> Task Title </h2>
-                    <div> Task Description </div>
+                    <h2 className="font-bold text-2xl"> Task Title </h2>
+                    <div className="font-semibold"> Task Description </div>
                 </div>
 
                 <div className="flex gap-2">
